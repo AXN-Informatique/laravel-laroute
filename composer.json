@@ -1,0 +1,13 @@
+{
+    "name": "axn/laravel-laroute",
+    "homepage": "https://bitbucket.org/axn/laravel-laroute",
+	"description": "Extension du paquet aaronlord/laroute.",
+    "require": {
+        "lord/laroute": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Axn\\Laroute\\": "src/"
+        }
+    }
+}
