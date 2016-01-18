@@ -1,6 +1,6 @@
 <?php
 
-namespace Axn\Laroute\Providers;
+namespace Axn\Laroute;
 
 use Lord\Laroute\LarouteServiceProvider;
 use Lord\Laroute\Console\Commands\LarouteGeneratorCommand;
