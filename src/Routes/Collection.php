@@ -20,6 +20,10 @@ class Collection extends BaseCollection
     {
         $data = parent::getRouteInformation($route, $filter, $namespace);
 
+        if (!$data) {
+            return null;
+        }
+
         return array_only($data, ['uri', 'name']);
     }
 }
