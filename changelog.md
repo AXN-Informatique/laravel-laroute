@@ -1,5 +1,13 @@
-# Changelog for Laravel Laroute
+Changelog for Laravel Laroute
+=============================
 
-## 1.0.0 (2016-01-18)
+1.0.1 (2016-02-04)
+------------------
+
+- Surcharge de \Illuminate\Support\Collection::toJson()
+  pour ajouter l'option JSON_PRETTY_PRINT
+
+1.0.0 (2016-01-18)
+------------------
 
 - First release.
