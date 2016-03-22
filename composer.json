@@ -1,13 +1,23 @@
 {
-    "name": "axn/laravel-laroute",
-    "homepage": "https://bitbucket.org/axn/laravel-laroute",
-	"description": "Extension du paquet aaronlord/laroute.",
-    "require": {
-        "lord/laroute": "^2.1"
+    "name" : "axn/laravel-laroute",
+    "description" : "Extension du paquet aaronlord/laroute.",
+    "homepage" : "https://bitbucket.org/axn/laravel-laroute",
+    "support" : {
+        "issues" : "https://bitbucket.org/axn/aravel-laroute/issues?status=new&status=open"
     },
-    "autoload": {
-        "psr-4": {
-            "Axn\\Laroute\\": "src/"
+    "authors" : [{
+            "name" : "AXN Informatique",
+            "email" : "developpement@axn.fr"
+        }
+    ],
+    "license" : "MIT",
+    "minimum-stability" : "stable",
+    "require" : {
+        "lord/laroute" : "^2.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Axn\\Laroute\\" : "src/"
         }
     }
 }
