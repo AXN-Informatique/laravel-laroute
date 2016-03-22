@@ -1,6 +1,12 @@
 Changelog for Laravel Laroute
 =============================
 
+1.0.2 (2016-03-22)
+------------------
+
+- Source code released with the MIT license
+- Added license file
+
 1.0.1 (2016-02-04)
 ------------------
 
