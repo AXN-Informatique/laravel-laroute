@@ -1,9 +1,9 @@
 {
     "name" : "axn/laravel-laroute",
-    "description" : "Extension du paquet aaronlord/laroute.",
-    "homepage" : "https://bitbucket.org/axn/laravel-laroute",
+    "description" : "Extend aaronlord/laroute package.",
+    "homepage" : "https://github.com/AXN-Informatique/laravel-laroute",
     "support" : {
-        "issues" : "https://bitbucket.org/axn/aravel-laroute/issues?status=new&status=open"
+        "issues" : "https://github.com/AXN-Informatique/laravel-laroute/issues"
     },
     "authors" : [{
             "name" : "AXN Informatique",
