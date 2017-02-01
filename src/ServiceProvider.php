@@ -15,15 +15,13 @@ class ServiceProvider extends LarouteServiceProvider
      */
     protected function registerCommand()
     {
-        $this->app['command.laroute.generate'] = $this->app->singleton(
-            function($app) {
-                $config     = $app['config'];
-                $routes     = new Routes($app['router']->getRoutes(), $config->get('laroute.filter', 'all'), $config->get('laroute.action_namespace', ''));
-                $generator  = $app->make('Lord\Laroute\Generators\GeneratorInterface');
+        $this->app->singleton('command.laroute.generate', function($app) {
+            $config     = $app['config'];
+            $routes     = new Routes($app['router']->getRoutes(), $config->get('laroute.filter', 'all'), $config->get('laroute.action_namespace', ''));
+            $generator  = $app->make('Lord\Laroute\Generators\GeneratorInterface');
 
-                return new LarouteGeneratorCommand($config, $routes, $generator);
-            }
-        );
+            return new LarouteGeneratorCommand($config, $routes, $generator);
+        });
 
         $this->commands('command.laroute.generate');
     }
