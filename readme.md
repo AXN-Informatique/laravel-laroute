@@ -1,26 +1,29 @@
 # Laravel Laroute
 
-Ce package est une extension de `aaronlord/laroute` pour alléger le fichier `laroute.js`
-en ne lui fournissant que les noms et URLs des routes ; les autres propriétés (host,
-methods, action) étant inutiles.
+This package is an extension of `aaronlord/laroute` to lighten the` laroute.js` file
+by providing only the names and URLs of the routes; the other properties (host, methods, action)
+are useless in most cases.
 
 ## Installation
 
-Inclure le package avec Composer :
+Install the package with Composer:
 
 ```
 composer require axn/laravel-laroute
 ```
 
-Ajouter le service provider au tableau des providers dans `config/app.php` :
+Add the package service provider to your providers array in `config/app.php`:
 
+```php
+'providers' => [
+    // ...
+    Axn\Laroute\ServiceProvider::class,
+],
 ```
-'Axn\Laroute\ServiceProvider',
-```
 
-## Utilisation
+## Usage
 
-Voir le readme de `aaronlord/laroute` : https://github.com/aaronlord/laroute
+See the reader of `aaronlord/laroute`: https://github.com/aaronlord/laroute
 
-La différence est que les méthodes `action` et `link_to_action` ne sont plus utilisables
-vu que les actions des routes ont été retirées de `laroute.js`.
+The difference is that the `action` and` link_to_action` methods are no longer usable
+as the road actions have been removed from `laroute.js`.
