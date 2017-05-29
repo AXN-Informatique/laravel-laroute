@@ -2,7 +2,8 @@
 
 This package is an extension of `aaronlord/laroute` to lighten the` laroute.js` file
 by providing only the names and URLs of the routes; the other properties (host, methods, action)
-are useless in most cases.
+are useless in most cases. Also we think that it is not safe to expose the paths of the classes
+of the application; so we are more secure as well.
 
 ## Installation
 
