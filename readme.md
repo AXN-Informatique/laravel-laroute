@@ -13,7 +13,9 @@ Install the package with Composer:
 composer require axn/laravel-laroute
 ```
 
-Add the package service provider to your providers array in `config/app.php`:
+In Laravel 5.5 the service provider will automatically get registered.
+In older versions of the framework just add the service provider
+to the array of providers in `config/app.php`:
 
 ```php
 'providers' => [
