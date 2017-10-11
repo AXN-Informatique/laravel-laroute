@@ -32,7 +32,7 @@ class Collection extends BaseCollection
     {
         $data = parent::getRouteInformation($route, $filter, $namespace);
 
-        if (!$data) {
+        if (!$data || empty($data['name'])) {
             return null;
         }
 
