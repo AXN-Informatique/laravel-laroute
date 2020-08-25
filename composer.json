@@ -12,7 +12,6 @@
     ],
     "license" : "MIT",
     "require" : {
-        "illuminate/support" : "^5.4|^6.0",
         "lord/laroute" : "^2.4"
     },
     "autoload" : {
