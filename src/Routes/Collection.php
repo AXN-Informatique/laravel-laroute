@@ -36,6 +36,6 @@ class Collection extends BaseCollection
             return null;
         }
 
-        return array_only($data, ['uri', 'name']);
+        return array_intersect_key($data, array_flip(['uri', 'name']));
     }
 }
