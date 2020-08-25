@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.6.0 (2020-08-25)
+------------------
+
+- Drop Illuminate/Support requirement
+- Replace array_only with Arr::only
+
 1.5.0 (2019-03-07)
 ------------------
 
