@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.7.0 (2020-08-25)
+------------------
+
+- Restore "illuminate/support" requirement to ">=5.4"
+- Add "illuminate/routing" requirement to ">=5.4"
+
 1.6.0 (2020-08-25)
 ------------------
 
