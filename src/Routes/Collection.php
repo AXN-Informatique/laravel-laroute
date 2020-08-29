@@ -17,7 +17,7 @@ class Collection extends BaseCollection
     {
         $options = JSON_PRETTY_PRINT | $options;
 
-        return json_encode($this->toArray(), $options);
+        return json_encode($this->jsonSerialize(), $options);
     }
 
     /**

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.7.1 (2020-08-29)
+------------------
+
+- Use jsonSerialize() instead of toArray() in toJson()
+
 1.7.0 (2020-08-25)
 ------------------
 
