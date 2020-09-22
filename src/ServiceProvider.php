@@ -8,6 +8,24 @@ use Axn\Laroute\Routes\Collection as Routes;
 
 class ServiceProvider extends LarouteServiceProvider
 {
+    public function boot()
+    {
+        if ($this->app->routesAreCached()) {
+            return;
+        }
+
+        parent::boot();
+    }
+
+    public function register()
+    {
+        if ($this->app->routesAreCached()) {
+            return;
+        }
+
+        parent::register();
+    }
+
     /**
      * Register the command.
      *
